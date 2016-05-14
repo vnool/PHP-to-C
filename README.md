@@ -1,6 +1,6 @@
 #PHP-to-C
  
-BinaryPHP is a PHP To C++ converter which will convert PHP scripts into C++ equivalents ready to be compiled using any ANSI compiler.
+BinaryPHP is a PHP To C++ converter, which will convert PHP scripts into C++ equivalents ready to be compiled using any ANSI compiler.
 
 
 ##DEPENDS
@@ -19,6 +19,7 @@ BinaryPHP is a PHP To C++ converter which will convert PHP scripts into C++ equi
 
 
 ##USAGE
+
   convert.php --if <inputfile.php> --of <output> [-v | --verbose] [-h | --help]
 
   Included Examples:
