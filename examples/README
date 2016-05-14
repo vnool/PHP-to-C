@@ -1,0 +1,27 @@
+$Id: README,v 1.1 2003/08/06 16:14:33 asleep Exp $
+
+BinaryPHP Examples
+-------------------------------------------------
+
+* IRCBot
+
+  ./convert.php --if examples/irc.php --of ircbot
+  ./ircbot
+
+  The BinaryPHP IRCBot example is a basic socket-based
+  'bot' used with IRC. Once compiled and ran this example
+  will connect to IRC as 'TestBOT' and join the #binaryphp
+  channel on FreeNode (irc.freenode.net).
+  You can use the fun command of +punch to have TestBOT
+  punch a user in IRC.
+
+  <ASleep> +punch Daeken
+  * TestBOT punches Daeken in the face.
+
+* Hello World
+
+  ./convert.php --if examples/hello.php --of hello
+  ./hello
+
+  If we need to explain a 'Hello World' example to you
+  then you should probable rm -Rf this directory.

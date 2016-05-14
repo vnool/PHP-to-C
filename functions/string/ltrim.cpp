@@ -1,0 +1,21 @@
+php_var ltrim(php_var str, php_var charlist = "")
+{
+	string chrs = charlist.container + " " + "\t" + "\n" + "\r" + "\0" + "\x0B";
+	int i = 0;
+	int j = 0;
+	bool changed = true;
+	while(changed == true && i < str.container.length())
+	{
+		changed = false;
+		for(j = 0; j < chrs.length(); ++j)
+		{
+			if(str.container[i] == chrs[j])
+			{
+				str.container.erase(i, 1);
+				changed = true;
+				break;
+			}
+		}
+	}
+	return str;
+}
