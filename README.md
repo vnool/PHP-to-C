@@ -31,3 +31,5 @@ BinaryPHP is a PHP To C++ converter, which will convert PHP scripts into C++ equ
 ##CHANGELOG
 
   see ChangeLog 
+  
+Last Update: 2013-04-24
