@@ -1,5 +1,5 @@
 <?php
-	class Generatorr
+	class TokenGenerator
 	{
 		var $functions = array('main');
 		var $curfunction = 0;
