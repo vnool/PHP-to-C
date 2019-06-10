@@ -1,12 +1,11 @@
 <?php
-	class Generator
+	class Generatorr
 	{
 		var $functions = array('main');
 		var $curfunction = 0;
 		var $code;
 		var $prototypes;
 		var $includes = array();
-		var $defines = array();
 		var $cppincludes = array();
 		var $namespace;
 		var $tabs = 0;
@@ -23,7 +22,7 @@
 		var $switched = array();
 		var $libs = array();
 		var $globals = array();
-		function Generator($tokenizer)
+		function __construct($tokenizer)
 		{
 			global $funcs;
 			$this->code = array('main' => array());
