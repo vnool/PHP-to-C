@@ -59,7 +59,7 @@ if($debug == true) {
 	$tokenizer = new Tokenizer();
 	$tokenizer->Parse($input);
 	$tokenizer->Strip();
-	$gen = new Generator($tokenizer);
+	$gen = new TokenGenerator($tokenizer);
 	list($code, $flags) = $gen->Convert();
 	if(DEBUG)
 		$flags .= ' -g';
