@@ -1,9 +1,9 @@
-#PHP-to-C
+# PHP-to-C
  
 BinaryPHP is a PHP To C++ converter, which will convert PHP scripts into C++ equivalents ready to be compiled using any ANSI compiler.
 
 
-##DEPENDS
+## DEPENDS
   * PHP (cli-sapi)
   
   Tested using 4.X series of the CLI sapi
@@ -13,12 +13,12 @@ BinaryPHP is a PHP To C++ converter, which will convert PHP scripts into C++ equ
   Tested with: GNU g++ 2.9.5 and 3.0.4 and some unknown version of MSVC++
 
 
-##BUILDING
+## BUILDING
 
   None Needed
 
 
-##USAGE
+## USAGE
 
   convert.php --if <inputfile.php> --of <output> [-v | --verbose] [-h | --help]
 
@@ -28,15 +28,13 @@ BinaryPHP is a PHP To C++ converter, which will convert PHP scripts into C++ equ
     ./convert.php --if examples/helloworld.php --of hello
 
 
-##CHANGELOG
+## CHANGELOG
 
-  see ChangeLog 
+  see [ChangeLog](DOCS/ChangeLog)
   
-Last Update: 2013-04-24
 
+### refer to
 
-###refer to
-http://rosecompiler.org/
-
-https://github.com/facebook/hhvm
++ http://rosecompiler.org/
++ https://github.com/facebook/hhvm
  
